@@ -1,0 +1,6 @@
+/.vscode
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.local_
