@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     zip \
     zlib1g-dev \
+    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
 # PHP extensions (Non-standard)

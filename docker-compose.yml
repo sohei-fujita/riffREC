@@ -41,7 +41,7 @@ services:
       - ./docker/initdb:/docker-entrypoint-initdb.d
       - ./docker/mysql:/var/log/mysql
 
-  # redis:
-  #   image: redis:alpine
-  #   ports:
-  #     - "6379:6379"
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
