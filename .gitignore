@@ -2,5 +2,6 @@
 /public/storage
 /storage/*.key
 /vendor
+/node_modulues
 .env
 .env.local_
